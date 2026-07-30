@@ -1,20 +1,45 @@
 aid: lyndacom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lyndacom.png
 name: Lynda.com
-description: 'Lynda.com is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Lynda.com was an online video learning platform founded in 1995 by Lynda
+  Weinman and Bruce Heavin, offering courses in software, creative, and business skills.
+  LinkedIn acquired Lynda.com in 2015 (~$1.5B) and folded it into LinkedIn Learning;
+  the standalone Lynda.com service has been retired and www.lynda.com now 301-redirects
+  to linkedin.com/learning. The brand exposes no public developer program or API surface
+  of its own. This profile was surfaced as an Accel portfolio company and enriched
+  as a lead; the honest result is a defunct brand with no first-party API.'
 url: https://raw.githubusercontent.com/api-evangelist/lyndacom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-reason: acquired by LinkedIn (2015); site retired, redirects to LinkedIn Learning
 x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Online Learning
+- Video Courses
+- Acquired
+- LinkedIn
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lyndacom-domain-security.yml
 - type: Website
   url: http://www.lynda.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
