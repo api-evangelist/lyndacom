@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.lynda.com', status: 301, note: 'declared website redirects to https://www.linkedin.com/learning/?trk=lynda_redirect_learning — a different registrable domain (lynda.com -> linkedin.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lyndacom.png
 name: Lynda.com
 description: 'Lynda.com was an online video learning platform founded in 1995 by Lynda
