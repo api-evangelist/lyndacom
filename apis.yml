@@ -18,20 +18,22 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: http://www.lynda.com
+    status: 301
+    note: declared website redirects to https://www.linkedin.com/learning/?trk=lynda_redirect_learning
+      — a different registrable domain (lynda.com -> linkedin.com), possible rename or acquisition (probed
+      2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'http://www.lynda.com', status: 301, note: 'declared website redirects to https://www.linkedin.com/learning/?trk=lynda_redirect_learning — a different registrable domain (lynda.com -> linkedin.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lyndacom.png
 name: Lynda.com
-description: 'Lynda.com was an online video learning platform founded in 1995 by Lynda
-  Weinman and Bruce Heavin, offering courses in software, creative, and business skills.
-  LinkedIn acquired Lynda.com in 2015 (~$1.5B) and folded it into LinkedIn Learning;
-  the standalone Lynda.com service has been retired and www.lynda.com now 301-redirects
-  to linkedin.com/learning. The brand exposes no public developer program or API surface
-  of its own. This profile was surfaced as an Accel portfolio company and enriched
-  as a lead; the honest result is a defunct brand with no first-party API.'
+description: Lynda.com was an online video learning platform founded in 1995 by Lynda Weinman and Bruce
+  Heavin, offering courses in software, creative, and business skills. LinkedIn acquired Lynda.com in
+  2015 (~$1.5B) and folded it into LinkedIn Learning; the standalone Lynda.com service has been retired
+  and www.lynda.com now 301-redirects to linkedin.com/learning. The brand exposes no public developer
+  program or API surface of its own. This profile was surfaced as an Accel portfolio company and enriched
+  as a lead; the honest result is a defunct brand with no first-party API.
 url: https://raw.githubusercontent.com/api-evangelist/lyndacom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Consumer
@@ -53,6 +55,7 @@ tags:
 - Video Courses
 - Acquired
 - LinkedIn
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
