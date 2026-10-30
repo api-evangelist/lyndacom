@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lynda.com is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: accel — http://www.lynda.com
+Lynda.com was an online video learning platform founded in 1995 by Lynda Weinman and Bruce Heavin, offering courses in software, creative, and business skills. LinkedIn acquired Lynda.com in 2015 (~$1.5B) and folded it into LinkedIn Learning; the standalone Lynda.com service has been retired and www.lynda.com now 301-redirects to linkedin.com/learning. The brand exposes no public developer program or API surface of its own. This profile was surfaced as an Accel portfolio company and enriched as a lead; the honest result is a defunct brand with no first-party API.
+
+**Areas:** Company · Consumer · Education · EdTech · E-Learning · Video Courses · Acquired · LinkedIn · Defunct
+
+## Lynda.com on APIs.io (historical record)
+
+Everything profiled for Lynda.com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lyndacom/](https://apis.io/providers/lyndacom/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lyndacom Domain Security](https://apis.io/security/lyndacom/lyndacom-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.lynda.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lynda.com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lyndacom/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
